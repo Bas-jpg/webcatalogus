@@ -1,0 +1,44 @@
+.containers {
+  display: grid;
+  grid-template-areas: "txt imgdetail";
+  margin-top: 150px;
+  margin-right: 250px;
+  margin-left: 100px;
+}
+
+.container {
+  grid-area: txt;
+}
+.display_container {
+  grid-area: imgdetail;
+}
+
+.display {
+  border: 1px solid var(--color3);
+  bottom: 280px;
+  height: 250px;
+  width: 450px;
+}
+
+.txt1 {
+  font-size: 24px;
+}
+
+.display2 {
+  border: 1px solid var(--color3);
+  bottom: 280px;
+  height: 75px;
+  width: 450px;
+  font-size: 20px;
+}
+
+.btn {
+  height: 20px;
+  width: 100px;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 1px 5px 5px;
+}

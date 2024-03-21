@@ -1,0 +1,51 @@
+* {
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --color1: #8ad3ff;
+  --color2: #fffd8a;
+  --color3: #000000;
+  --color4: #ffffff;
+  --color5: #2e5fad;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "titletxt empty"
+    "image txt";
+}
+
+.title {
+  border: 1px solid var(--color3);
+  height: 200px;
+  width: 100%;
+}
+
+.phototxt {
+  border: 1px solid var(--color3);
+  bottom: 280px;
+  width: 350px;
+  grid-area: image;
+  margin-left: 140px;
+}
+
+.titletxt {
+  grid-area: titletxt;
+  margin-top: 100px;
+  margin-right: 1500px
+}
+
+.text {
+  bottom: 500px;
+  left: 500px;
+  font-size: 25px;
+  grid-area: txt;
+}
+
+.titleinfo{
+  margin-top: -120px;
+}
